@@ -2,8 +2,10 @@
 
 namespace ECS.Legacy
 {
-    internal class TempSensor
+    internal class TempSensor:ITempSensor
     {
+        public int _threshold;
+        public TempSensor _TempSensor;
         private Random gen = new Random();
 
         public int GetTemp()
@@ -14,6 +16,15 @@ namespace ECS.Legacy
         public bool RunSelfTest()
         {
             return true;
+        }
+        public void SetThreshold(int thr)
+        {
+            _threshold = thr;
+        }
+
+        public int GetThreshold()
+        {
+            return _threshold;
         }
     }
 }
