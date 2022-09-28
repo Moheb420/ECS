@@ -10,9 +10,9 @@ namespace ECS.Legacy
 
         bool IFakeHeater.FakeTurnOn(int i)
         {
-            if (i == 2)
+            if (i == 1)
             {
-                return false;
+                return true;
             }
             else if (i == 2)
             {
