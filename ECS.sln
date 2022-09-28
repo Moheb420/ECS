@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECS.Legacy", "ECS.Legacy\ECS.Legacy.csproj", "{04BB7A61-C926-4654-A911-EA7EAE974326}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECS.Unit.Test", "ECS.Unit.Test\ECS.Unit.Test.csproj", "{5E0FC8C5-6168-43CB-93DC-5BE0DB199224}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECS.Test.Unit", "ECS.Unit.Test\ECS.Test.Unit.csproj", "{5E0FC8C5-6168-43CB-93DC-5BE0DB199224}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
